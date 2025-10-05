@@ -3,11 +3,10 @@
 import { useEffect, useState } from "react"
 import { CommandDialog, CommandEmpty, CommandInput, CommandList } from "@/components/ui/command"
 import {Button} from "@/components/ui/button";
-import {Loader2,  TrendingUp} from "lucide-react";
+import {Loader2,  StarIcon,  TrendingUp} from "lucide-react";
 import Link from "next/link";
 import {searchStocks} from "@/lib/actions/finnhub.actions";
 import {useDebounce} from "@/hooks/useDebounce";
-
 export default function SearchCommand({ renderAs = 'button', label = 'Add stock', initialStocks }: SearchCommandProps) {
   const [open, setOpen] = useState(false)
   const [searchTerm, setSearchTerm] = useState("")
@@ -99,7 +98,6 @@ export default function SearchCommand({ renderAs = 'button', label = 'Add stock'
                           {stock.symbol} | {stock.exchange } | {stock.type}
                         </div>
                       </div>
-                    {/*<Star />*/}
                     </Link>
                   </li>
               ))}
