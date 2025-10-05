@@ -51,7 +51,7 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/nitpatel678?tab=repositories
+git clone https://github.com/nitpatel678/fullstack_stock.git
 cd tradelens
 ```
 
