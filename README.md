@@ -51,8 +51,8 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/adrianhajdin/signalist_stock-tracker-app.git
-cd signalist_stock-tracker-app
+git clone https://github.com/nitpatel678?tab=repositories
+cd tradelens
 ```
 
 ### Install Dependencies
