@@ -2,8 +2,6 @@
 
 > **Live Demo:** [Click here](https://tradelens-xi.vercel.app/)
 
-> ⚠️ Important: Currently, the live email and summary of Inngest are not working in the live demo but it works fine in the development localhost mode.
-
 This repository contains the code for **TradeLens**, an AI-powered modern stock market app built with **Next.js**, **Shadcn**, **Better Auth**, and **Inngest**. Track real-time prices, set personalized alerts, explore company insights, and manage watchlists.  
 
 The admin dashboard allows managing stocks, publishing news, and monitoring user activity. Event-driven workflows power automated alerts, AI-driven daily digests, earnings notifications, and sentiment analysis—perfect for developers looking for a dynamic, real-time financial platform.
